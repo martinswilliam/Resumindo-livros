@@ -1,0 +1,66 @@
+.tittle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color:rgb(28, 32, 44);
+    
+
+} 
+
+#pl {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#bt {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    font-size: 20px;
+    transition: all 1s ease;
+    border-color: black;
+    border-radius: 1000px;
+    
+
+   
+    
+}
+
+
+
+#bt:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+#god {
+    width: 210px;
+    height: 300px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-right: 30%;
+    border-left: 30%;
+}
+
+.tittle {
+    display: flex;
+    justify-content: center;
+}
+
+#cow {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    font-size: 20px;
+    transition: all 1s ease;
+    border-color: black;
+    border-radius: 1000px;        
+    }
+    
+#cow:hover {
+    background-color: black;
+    color: #ffffff;
+}
