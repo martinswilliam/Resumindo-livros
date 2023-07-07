@@ -3,6 +3,84 @@
 
 body {
     background: #201b2c;
+    height: 10vw;
+    width: 50vw;
+    padding: 7%;
+    
+    
+  
+    
+    
+}
+
+.search-box {
+    position: absolute;
+    top: 42%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+
+    background: #fff;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.search-box:hover > .search-text {
+    width: 320px;
+    padding-left: 20px;
+
+}
+
+.search-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box:hover > .search-btn {
+    background: #447ce7;
+}
+
+.search-box:hover > .search-btn .loupe-blue {
+    display: none;
+
+}
+
+.search-box:hover .search-btn .loupe-white {
+    display: block;
+}
+
+.loupe-white {
+    display: none;
+}
+
+::-webkit-input-placeholder {
+    font-size: 17px;
+    color: #aeaeae;
 }
 
 .anuncio {
@@ -10,12 +88,13 @@ body {
     font-size: 100%;
 }
 .reader {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     justify-content: center;
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
+    align-items: center;
     
     
     
@@ -23,7 +102,7 @@ body {
 
 .tittle {
     font-family: 'Great Vibes', cursive;
-    font-size: 100%;
+    font-size: 300%;
     color: #77ffc0 ;
     width: 50vw;
     height: 8vw;
@@ -32,21 +111,25 @@ body {
     align-items: center;
 } 
 
+
+
+
 .right-itens {
+    
     font-family: 'Great Vibes', cursive;
     font-size: 100%;
     color: #77ffc0 ;
-    width: 50vw;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
-    margin-right: 110px;
+    margin: 0 auto;
 }
 
 
 #bt {
     width: 60%;
-    padding: 16px 0px;
+    padding: 22px 0px;
     margin: 25px;
     border: none;
     border-radius: 8px;

@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="/src/css/login.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="/src/css/login.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-login">
-        <div class="left-login">
-            <a class="home" href="/index.html">MENU</a>
-            <h1></h1>
-            <img class="LivrosImage" src="/img/animLivro.svg" alt="Animação livro">
+      <div class="left-login">
+        <a style="text-decoration: none" href="./index.html"
+          ><button class="btn">
+            <span class="icon">
+              <svg viewBox="0 0 175 80" width="40" height="40">
+                <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                <rect
+                  y="30"
+                  width="80"
+                  height="15"
+                  fill="#f0f0f0"
+                  rx="10"
+                ></rect>
+                <rect
+                  y="60"
+                  width="80"
+                  height="15"
+                  fill="#f0f0f0"
+                  rx="10"
+                ></rect>
+              </svg>
+            </span>
+            <span class="text">MENU</span>
+          </button></a
+        >
+        <h1></h1>
+        <img
+          class="LivrosImage"
+          src="/img/animLivro.svg"
+          alt="Animação livro"
+        />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1 class="card-login-escrita">
+            Faça login<br />e se aventure no mundo dos livros
+          </h1>
+          <div class="textfield">
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" placeholder="Usuario" />
+          </div>
+          <div class="textfield">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="senha" />
+          </div>
+          <br />
+          <button class="btn-login">Login</button>
         </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1 class="card-login-escrita">Faça login<br>e se aventure no mundo dos livros</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuario</label>
-                    <input type="text" name="usuario" placeholder="Usuario">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="senha">
-                </div>
-                <br>
-                <button class="btn-login">Login</button>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -1,4 +1,3 @@
-README - Site de Resumos de Livros
 Bem-vindo ao projeto do site de resumos de livros! Este é um site que tem como objetivo fornecer resumos de livros para os usuários, oferecendo uma maneira rápida e conveniente de obter informações-chave sobre diversas obras literárias. Este documento fornece todas as informações necessárias para entender e configurar o projeto.
 
 Funcionalidades
