@@ -3,13 +3,19 @@
 
 
 body {
-    background-color: #201b2c;
+    background-color: #ffffff;
 }
 .reader {
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
-    background-color:#2f2841;
+    justify-content: space-between;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    box-shadow: 0px 0px 12px 0px #77817c52;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    align-items: center;
    
     
     
@@ -17,21 +23,26 @@ body {
 
 .titlle {
     font-family: 'Great Vibes', cursive;
-    font-size: 300%;
-    color: #77ffc0 ;
+    font-size: 500%;
+    color: #000000 ;
+}
+
+.invisible {
+    display: none;
 }
 
 .search-box {
     position: absolute;
-    top: 5%;
-    left: 32%;
+    top: 51%;
+    left: 60%;
     transform: translate(-50%, -50%);
 
-    background: #fff;
+    background: #ffffff;
     height: 50px;
     padding: 10px;
     border-radius: 40px;
-
+    border: solid;
+    border-width: 1px 1px 3px 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,17 +110,18 @@ body {
 #bt {
     width: 60%;
     padding: 22px 0px;
-    margin: 25px;
+    margin: 45px;
     border: none;
     border-radius: 8px;
     outline: none ;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #2b134b;
     background: #00ff88;
     cursor: pointer;
-    box-shadow: 0px 10px 12px #00ff8052;
+    box-shadow: 0px 10px 12px 1px #00ff8052;
+
      
 }
 
@@ -119,15 +131,33 @@ body {
 }
 
 .nav {
-    background-color: #2b134b;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 200%;
-    color: #f5f5f5;
+    color: #000000;
     font-family: 'Noto Sans', sans-serif;
+    border: solid;
+    border-width: 0px 1px 1px 1px;
+    box-shadow: 0px 0px 12px 0px #77817c52;
+    border-radius: 15px 15px 15px 15px;
+
 
     
+}
+
+.categories {
+    color: #534c4c;
+    font: bold
+}
+
+.news-books {
+    color: #534c4c;
+}
+
+.books-recomend {
+    color: #534c4c;
 }
 
 .main {
@@ -144,15 +174,15 @@ body {
 }
 
 .section {
-    background-color: #514869;
+    background-color: #ffffff;
     padding: 392px;
     color: #aeaeae;
 }
 
 .aside {
-    background-color: #514869;
+    background-color: #ffffff;
     padding: 392px;
-    color: #aeaeae;
+    color: rgb(0, 0, 0);
     
     
 }
