@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@1,900&display=swap');
 
 
-body {
-    background-color: #ffffff;
-    box-sizing: border-box;
-}
+
+
 .reader {
     display:flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     border: solid;
     border-width: 0px 0px 1px 0px;
     box-shadow: 0px 0px 12px 0px #77817c52;
@@ -24,12 +22,7 @@ body {
     
 }
 
-.logo:hover {
-    height: 160px;
-    width: 160px;
-    transition: all 0.5s;
-    
-}
+
 
 
 
@@ -239,7 +232,7 @@ btn {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 800px;
+    height: 400px;
     box-sizing: border-box;
     padding: 10px;
     display: flex;
@@ -248,13 +241,13 @@ btn {
 
 .section {
     background-color: #ffffff;
-    padding: 392px;
+    padding: 180px;
     color: #aeaeae;
 }
 
 .aside {
     background-color: #ffffff;
-    padding: 392px;
+    padding: 180px;
     color: rgb(0, 0, 0);
     
     
@@ -267,7 +260,7 @@ btn {
     justify-content: space-around;
     background-color: #2b134b;
     color: #f5f5f5;
-    font-size: larger;
+    font-size: 8px;
     word-spacing: 15px;
 
 }
